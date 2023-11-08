@@ -21,7 +21,7 @@
                     </ul>
                 </li>
 
-                <li class="nav-item ms-auto" id="liLogin">
+                <li class="nav-item ms-auto">
                     <a class="nav-link" href="login.php"><i class="fa-solid fa-right-to-bracket"></i>Login</a>
                 </li>
 

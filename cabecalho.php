@@ -16,8 +16,10 @@
 
 <body>
 
-    <?php require_once("menu.php") ?>
+    <?php require_once("menu.php");
 
-</body>
-
-</html>
+    if (isset($mensagem) && $mensagem != "") { ?>
+        <div class="alert alert-success" role="alert">
+            <?= $mensagem ?>
+        </div>
+    <?php } ?>
