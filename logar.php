@@ -14,11 +14,13 @@ if (($totalDeRegistros == 1) && password_verify($senha, $usuario['senha'])) {
     if (!isset($_SESSION)) {
         session_start();
         $_SESSION['id'] = $usuario['id'];
+        $_SESSION['nome'] = $usuario['nome'];
+        $_SESSION['email'] = $usuario['email'];
         header('Location: ./adm.php');
         die();
     } else {
         $mensagem = "Usuário/Senha Inválidos";
-        header('Location: ./login.php');
+        header("location: login.php?mensagem={$mensagem}");
         die();
     }
 } else {
