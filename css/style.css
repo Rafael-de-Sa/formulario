@@ -1,0 +1,22 @@
+.botaoTabela {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.botaoTabela a {
+  text-decoration: none;
+}
+
+.botaoTabela div {
+  width: 100%;
+  margin: 100px;
+}
+
+.botaoBranco {
+  color: white;
+  font-weight: 500;
+}

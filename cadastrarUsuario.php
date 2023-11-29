@@ -41,7 +41,7 @@ require_once("cabecalho.php") ?>
                 <label for="senha" class="form-label">Senha</label>
                 <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha">
             </div>
-            <button type="submit" class="btn bg-primary" name="cadastrarUsuario">Cadastrar</button>
+            <button type="submit" class="btn bg-primary botaoBranco" name="cadastrarUsuario">Cadastrar</button>
         </div>
     </form>
 

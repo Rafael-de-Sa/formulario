@@ -1,4 +1,4 @@
-<?php 
+<?php
 require_once("cabecalho.php");
 session_start();
 var_dump($_SESSION['id']);
